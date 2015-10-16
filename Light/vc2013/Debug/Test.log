@@ -1,0 +1,17 @@
+﻿Build started 2015/04/21 20:55:51.
+     1>Project "C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\..\nishi\cinder_0.8.6\include /I..\..\..\nishi\cinder_0.8.6\boost /I..\..\..\nishi\cinder_0.8.6\include\freetype2 /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _WIN32_WINNT=0x0502 /D PRODUCT_NAME=Test /D DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\TestApp.cpp
+         TestApp.cpp
+     1>c:\users\vantan\desktop\cinderproject\test\src\testapp.cpp(72): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\vantan\desktop\cinderproject\test\src\testapp.cpp(73): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\vantan\desktop\cinderproject\test\src\testapp.cpp(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Debug\Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\nishi\cinder_0.8.6\lib\msw\x86 "cinder-v120_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Debug\Test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Debug\Test.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\TestApp.obj
+         Test.vcxproj -> C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Debug\Test.exe
+     1>Done Building Project "C:\Users\vantan\Desktop\CinderProject\Test\vc2013\Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.54

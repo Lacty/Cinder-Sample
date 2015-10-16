@@ -1,0 +1,14 @@
+﻿2015/05/27 18:11:23 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\TextureTest.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\cinder_0.8.6\include /I..\..\cinder_0.8.6\boost /I..\..\cinder_0.8.6\include\freetype2 /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D NOMINMAX /D _WIN32_WINNT=0x0502 /D PRODUCT_NAME=TextureTest /D DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\TextureTestApp.cpp
+         TextureTestApp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\Debug\TextureTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\cinder_0.8.6\lib\msw\x86 "cinder-v120_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\Debug\TextureTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\Debug\TextureTest.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\TextureTestApp.obj
+         TextureTest.vcxproj -> C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\Debug\TextureTest.exe
+     1>プロジェクト "C:\Users\vantan\Desktop\CinderProject\テクスチャ\vc2013\TextureTest.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.71
