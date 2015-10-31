@@ -12,6 +12,7 @@ using namespace std;
 class CinderProjectApp : public AppNative {
 private:
   CameraPersp camera;
+  Vec2f pos;
   
 public:
   void setup();
