@@ -19,6 +19,6 @@ public:
   // 起動して初めに実行されるシーンを設定
   SceneManager(const SceneType& type);
   
-  void update();
+  void update(bool isTouched);
   void draw();
 };

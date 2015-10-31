@@ -9,7 +9,7 @@ enum class SceneType {
 };
 
 class Scene {
-private:
+protected:
   SceneType type;
   
   void updateObject();
@@ -19,6 +19,6 @@ public:
   void setNextScene(const SceneType& type);
   SceneType getSceneType() const;
   
-  virtual void update() = 0;
+  virtual void update(bool isTouched) = 0;
   virtual void draw() = 0;
 };

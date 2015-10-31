@@ -20,6 +20,7 @@
 		AC3C8AA61BE4433D00AC798F /* scene_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3C8AA41BE4433D00AC798F /* scene_manager.cpp */; };
 		AC3C8AA91BE4447A00AC798F /* title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3C8AA71BE4447A00AC798F /* title.cpp */; };
 		AC3C8AAC1BE44E3C00AC798F /* scene_maker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3C8AAA1BE44E3C00AC798F /* scene_maker.cpp */; };
+		AC3C8AAF1BE464CC00AC798F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3C8AAD1BE464CC00AC798F /* main.cpp */; };
 		C725DFFE121DAC7F00FA186B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C727C02B121B400300192073 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C725E001121DAC8F00FA186B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C725E000121DAC8F00FA186B /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C725E001121DAC8FFFFA18FF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CFDF6A1138442D0091FFFF /* ImageIO.framework */; };
@@ -53,6 +54,8 @@
 		AC3C8AA81BE4447A00AC798F /* title.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = title.hpp; path = ../src/title.hpp; sourceTree = "<group>"; };
 		AC3C8AAA1BE44E3C00AC798F /* scene_maker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scene_maker.cpp; path = ../src/scene_maker.cpp; sourceTree = "<group>"; };
 		AC3C8AAB1BE44E3C00AC798F /* scene_maker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = scene_maker.hpp; path = ../src/scene_maker.hpp; sourceTree = "<group>"; };
+		AC3C8AAD1BE464CC00AC798F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
+		AC3C8AAE1BE464CC00AC798F /* main.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = main.hpp; path = ../src/main.hpp; sourceTree = "<group>"; };
 		B10D4D7C3DCE40D2904ED41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B755B95D5D6C41E2B5DD2B0B /* CinderApp_ios.png */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = CinderApp_ios.png; path = ../resources/CinderApp_ios.png; sourceTree = "<group>"; };
 		C725E000121DAC8F00FA186B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -138,6 +141,8 @@
 				AC3C8AA81BE4447A00AC798F /* title.hpp */,
 				AC3C8AAA1BE44E3C00AC798F /* scene_maker.cpp */,
 				AC3C8AAB1BE44E3C00AC798F /* scene_maker.hpp */,
+				AC3C8AAD1BE464CC00AC798F /* main.cpp */,
+				AC3C8AAE1BE464CC00AC798F /* main.hpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			files = (
 				AC3C8AAC1BE44E3C00AC798F /* scene_maker.cpp in Sources */,
 				AC3C8AA91BE4447A00AC798F /* title.cpp in Sources */,
+				AC3C8AAF1BE464CC00AC798F /* main.cpp in Sources */,
 				AC3C8AA31BE4423A00AC798F /* scene.cpp in Sources */,
 				2133F0403C4E4074A5E43A85 /* SceneApp.cpp in Sources */,
 				AC3C8AA61BE4433D00AC798F /* scene_manager.cpp in Sources */,

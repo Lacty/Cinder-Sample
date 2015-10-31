@@ -3,9 +3,14 @@
 #include "cinder/gl/gl.h"
 
 
-Title::Title() {}
+Title::Title() {
+  type = SceneType::Title;
+}
 
-void Title::update() {}
+void Title::update(bool isTouched) {
+  if (!isTouched) return;
+  setNextScene(SceneType::Main);
+}
 
 void Title::draw() {
   ci::gl::pushModelView();

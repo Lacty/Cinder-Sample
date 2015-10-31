@@ -8,6 +8,6 @@ private:
 public:
   Title();
   
-  void update();
+  void update(bool isTouched);
   void draw();
 };

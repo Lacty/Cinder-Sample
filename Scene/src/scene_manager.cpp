@@ -3,6 +3,7 @@
 
 
 SceneManager::SceneManager(const SceneType& type) {
+  this->type = type;
   create(type);
 }
 
@@ -11,8 +12,11 @@ void SceneManager::create(const SceneType& type) {
 }
 
 
-void SceneManager::update() {
-  scene->update();
+void SceneManager::update(bool isTouched) {
+  scene->update(isTouched);
+  if (type == scene->getSceneType()) return;
+  type = scene->getSceneType();
+  create(type);
 }
 
 void SceneManager::draw() {
